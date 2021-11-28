@@ -1,4 +1,4 @@
-let requestURL = "http://127.0.0.1:5500/time-frontend-mentor-challenge/data.json";
+let requestURL = "https://brezus.github.io/time-frontend-mentor-challenge/data.json";
 let request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "text";
