@@ -142,7 +142,7 @@ h1.intro {
   top: 0%;
   transform: translate(-50%, -50%);
   background-color: var(--Light-red-work);
-  background-image: url("/time-tracking-dashboard-main/images/icon-work.svg");
+  background-image: url("/time-frontend-mentor-challenge/images/icon-work.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right 1rem center;
@@ -153,23 +153,23 @@ h1.intro {
 }
 .secondary-grid--light-blue::before {
   background-color: var(--Soft-blue-play);
-  background-image: url("/time-tracking-dashboard-main/images/icon-play.svg");
+  background-image: url("/time-frontend-mentor-challenge/images/icon-play.svg");
 }
 .secondary-grid--red::before {
   background-color: var(--Light-red-study);
-  background-image: url("/time-tracking-dashboard-main/images/icon-study.svg");
+  background-image: url("/time-frontend-mentor-challenge/images/icon-study.svg");
 }
 .secondary-grid--green::before {
   background-color: var(--Lime-green-exercise);
-  background-image: url("/time-tracking-dashboard-main/images/icon-exercise.svg");
+  background-image: url("/time-frontend-mentor-challenge/images/icon-exercise.svg");
 }
 .secondary-grid--purple::before {
   background-color: var(--Violet-social);
-  background-image: url("/time-tracking-dashboard-main/images/icon-social.svg");
+  background-image: url("/time-frontend-mentor-challenge/images/icon-social.svg");
 }
 .secondary-grid--yellow::before {
   background-color: var(--Soft-orange-self-care);
-  background-image: url("/time-tracking-dashboard-main/images/icon-self-care.svg");
+  background-image: url("/time-frontend-mentor-challenge/images//icon-self-care.svg");
 }
 /* the colons to the right of the card titles start */
 .activity {
@@ -180,7 +180,7 @@ h1.intro {
   position: absolute;
   right: 0;
   top: 50%;
-  background-image: url("/time-tracking-dashboard-main/images/icon-ellipsis.svg");
+  background-image: url("/time-frontend-mentor-challenge/images/icon-ellipsis.svg");
   background-repeat: no-repeat;
   background-size: 1.5rem;
   height: 30px;
