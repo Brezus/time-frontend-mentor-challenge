@@ -15,7 +15,7 @@ request.onload = function () {
   let currentTime = document.querySelectorAll(".currentTime");
   let previousTime = document.querySelectorAll(".previous-time");
   for (let i = 0; i < currentTime.length; i++) {
-    console.log('fired
+    console.log('fired')
     // this for loop uses strings from the datajson file to populate the html
     activity[i].innerHTML = jeremysReport[i].title;
     currentTime[i].innerHTML =
@@ -49,4 +49,4 @@ request.onload = function () {
     }
   }
 };
-console.log('working')
+
