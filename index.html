@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-cont">
+      <div class="grid">
+        <!-- this is the entire grid -->
+        <!-- large grid start -->
+        <div class="main-grid grid-child-main">
+          <div class="main_intro">
+            <img
+              class="main_intro_img"
+              src="/time-tracking-dashboard-main/images/image-jeremy.png"
+              alt=""
+            />
+            <div class="main_intro_text">
+              <h1 class="intro">
+                Report for
+                <small class="small small--opacity">Jeremy Robson</small>
+              </h1>
+            </div>
+          </div>
+          <div class="main_timeframe">
+            <ul class="timeline">
+              <li class="timeline_list">
+                <a class="timeline_list_link" id="daily" href="#">Daily</a>
+              </li>
+              <li class="timeline_list">
+                <a class="timeline_list_link" id="weekly" href="#">Weekly</a>
+              </li>
+              <li class="timeline_list">
+                <a class="timeline_list_link" id="monthly" href="#">Monthly</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- large grid end -->
+
+        <!-- second grid start -->
+        <div class="secondary-grid grid-child secondary-grid--orange">
+          <div class="activity-info-cont">
+            <div class="activity-cont">
+              <p class="activity">Work</p>
+              <div class="icon"></div>
+            </div>
+            <div class="currentTime-cont">
+              <h1 class="currentTime">5hrs</h1>
+              <div class="previoustime-cont">
+                <p class="previous-time">last week - 36hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second grid end -->
+
+        <!-- third grid start -->
+        <div class="secondary-grid grid-child secondary-grid--light-blue">
+          <div class="activity-info-cont">
+            <div class="activity-cont">
+              <p class="activity">Play</p>
+              <div class="icon"></div>
+            </div>
+            <div class="currentTime-cont">
+              <h1 class="currentTime">1hr</h1>
+            <div class="previoustime-cont">
+              <p class="previous-time">Previous - 2hrs</p>
+            </div>
+          </div>
+
+          </div>
+        </div>
+        <!-- third grid end -->
+
+        <!-- fourth grid start -->
+        <div class="secondary-grid grid-child secondary-grid--red">
+          <div class="activity-info-cont">
+          <div class="activity-cont">
+            <p class="activity">Work</p>
+            <div class="icon"></div>
+          </div>
+          <div class="currentTime-cont">
+          <h1 class="currentTime">0hrs</h1>
+          <div class="previoustime-cont">
+            <p class="previous-time">Previous - 1hr</p>
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+        <!-- fourth grid end -->
+
+        <!-- fifth grid start -->
+        <div class="secondary-grid grid-child grid-child secondary-grid--green">
+          <div class="activity-info-cont">
+            <div class="activity-cont">
+              <p class="activity">Work</p>
+              <div class="icon"></div>
+            </div>
+            <div class="currentTime-cont">
+            <h1 class="currentTime">0hrs</h1>
+            <div class="previoustime-cont">
+              <p class="previous-time">Previous - 1hr</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <!-- fifth grid end -->
+
+        <!-- sixth grid start -->
+        <div
+          class="secondary-grid grid-child grid-child secondary-grid--purple"
+        >
+        <div class="activity-info-cont">
+          <div class="activity-cont">
+            <p class="activity">Work</p>
+            <div class="icon"></div>
+          </div>
+          <div class="currentTime-cont">
+          <h1 class="currentTime">0hrs</h1>
+          <div class="previoustime-cont">
+            <p class="previous-time">Previous - 1hr</p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <!-- sixth grid end -->
+
+        <!-- seventh grid start -->
+        <div
+          class="secondary-grid grid-child grid-child secondary-grid--yellow"
+        >
+        <div class="activity-info-cont">
+          <div class="activity-cont">
+            <p class="activity">Work</p>
+            <div class="icon"></div>
+          </div>
+          <div class="currentTime-cont">
+          <h1 class="currentTime">0hrs</h1>
+          <div class="previoustime-cont">
+            <p class="previous-time">Previous - 1hr</p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <!-- seventh grid end -->
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://www.frontendmentor.io/profile/Brezus" target="_blank">Millz</a>.
+        </div>
+      </div>
+  
+    </div>
+    <script src="/src/app.js"></script>
+  </body>
+</html>
