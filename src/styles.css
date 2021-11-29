@@ -403,6 +403,7 @@ h1.intro {
     justify-content: center;
     align-items: center;
     height: 100%;
+    overflow: hidden;
   }
   .grid {
     display: grid;
