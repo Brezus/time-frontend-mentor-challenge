@@ -275,6 +275,7 @@ h1.intro {
     padding: 5rem 0;
     justify-content: center;
     max-width: initial;
+    height: 100%;
     grid-template-areas:
       "main work play study"
       "main work play study"
