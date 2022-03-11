@@ -76,6 +76,7 @@ h1.intro {
 .grid-cont {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 .grid {
   display: grid;
